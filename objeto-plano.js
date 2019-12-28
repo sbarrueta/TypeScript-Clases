@@ -1,9 +1,14 @@
 var Persona = /** @class */ (function () {
     function Persona() {
     }
+    Persona.prototype.presentarse = function () {
+        return "Hola, soy  "
+            + this.nombre +
+            " " + this.apellido;
+    };
     return Persona;
 }());
-var instancia;
+var instancia = new Persona();
 instancia.nombre = "Juan";
 instancia.apellido = "Perez";
-console.log("Hola " + instancia.nombre);
+console.log(instancia.presentarse());
