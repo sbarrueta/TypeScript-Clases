@@ -3,7 +3,7 @@ var Persona = /** @class */ (function () {
     }
     return Persona;
 }());
-var instancia = new Persona();
+var instancia;
 instancia.nombre = "Juan";
 instancia.apellido = "Perez";
 console.log("Hola " + instancia.nombre);

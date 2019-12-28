@@ -3,7 +3,7 @@ class Persona{
     apellido:string;
 }
 
-let instancia = new Persona();
+let instancia:Persona;
 
 instancia.nombre = "Juan";
 instancia.apellido="Perez";
